@@ -19,7 +19,6 @@ class CharacterViewController: UIViewController {
     @IBOutlet var typeLabel: UILabel!
     @IBOutlet var genderLabel: UILabel!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -70,3 +69,10 @@ class CharacterViewController: UIViewController {
     }
 }
 
+// 0. Привести в порядок структуру файлов приложения
+// 1. Перенести загрузку данных в NetworkManager
+// 2. Реализовать UIAlertController при ошибке
+// 3. Реализовать получение списка персонажей, отображенных в таблице на первом экране
+// 4. Реализовать иконку перснажа слева от его имени в ячейки таблицы
+
+// Прописать везде структуру классов через MARK:
